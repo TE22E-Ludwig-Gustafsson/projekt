@@ -2,22 +2,18 @@ header
 {
 background-color: #CB9A9A;
 color: black;
-font-size:x-small
 }
-.Rubrik
+h1
 {
-background-color: #706767;
-max-width: 150px;
-max-height: 100px;
-text-align: center;
-align-self: center ;
+    text-align: center;
+}
+h2
+{
+    text-align: left;
+    
 }
 img
 {
  max-width: auto;
  max-height: 400px;
-}
-aside
-{
-
 }

@@ -1,7 +1,23 @@
 header
 {
-    max-width: 3000px;
-    max-height: 100px;
-background-color: black;
-color: red;
+background-color: #CB9A9A;
+color: black;
+font-size:x-small
+}
+.Rubrik
+{
+background-color: #706767;
+max-width: 150px;
+max-height: 100px;
+text-align: center;
+align-self: center ;
+}
+img
+{
+ max-width: auto;
+ max-height: 400px;
+}
+aside
+{
+
 }

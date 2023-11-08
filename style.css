@@ -1,35 +1,38 @@
+body {
+    overflow-y: scroll;
+  }
+
 .main {
   display: grid;
   max-width: 900px;
   max-height: 2000px;
 }
 
-/* img
-{
- max-width: auto;
- max-height: 400px;
-} */
-
-.ingredienser {
-  height: 250px;
-  max-width: 100px;
+/* Style for the header */
+.header {
+  background-color: #cb9a9a;
+  color: #fff;
+  text-align: center;
+  padding: 0px;
 }
 
-  /* Style for the header */
-  .header {
-    background-color: #333; /* Background color for the header */
-    color: #fff; /* Text color for the header */
-    text-align: center; /* Center-align text in the header */
-    padding: 0px; /* Add some padding for spacing */
-  }
+/* Style for the heading */
+.header h1 {
+  font-size: 24px;
+  color: black;
+}
 
-  /* Style for the heading */
-  .header h1 {
-    font-size: 24px; /* Font size for the heading */
-  }
-
-  /* Style for the text to the left */
-  .header p {
-    text-align: left; /* Left-align text */
-    margin: 0; /* Remove default margin */
-  }
+/*Style for the text to the left */
+.header p {
+  text-align: left;
+  margin: 0;
+  color: black;
+}
+.ing{
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+}
+.ing h2{
+    font-size: 20px;
+}

@@ -1,19 +1,35 @@
-header
-{
-background-color: #CB9A9A;
-color: black;
+.main {
+  display: grid;
+  max-width: 900px;
+  max-height: 2000px;
 }
-h1
-{
-    text-align: center;
-}
-h2
-{
-    text-align: left;
-    
-}
-img
+
+/* img
 {
  max-width: auto;
  max-height: 400px;
+} */
+
+.ingredienser {
+  height: 250px;
+  max-width: 100px;
 }
+
+  /* Style for the header */
+  .header {
+    background-color: #333; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    text-align: center; /* Center-align text in the header */
+    padding: 0px; /* Add some padding for spacing */
+  }
+
+  /* Style for the heading */
+  .header h1 {
+    font-size: 24px; /* Font size for the heading */
+  }
+
+  /* Style for the text to the left */
+  .header p {
+    text-align: left; /* Left-align text */
+    margin: 0; /* Remove default margin */
+  }

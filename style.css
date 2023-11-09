@@ -29,21 +29,25 @@ body {
   margin: 0;
   color: black;
 }
-.ing{
+.ing-bild{
     background-color: #f4f4f4;
     padding: 20px;
     display: flex;
+    max-width: auto;
 }
 
-.aside{
+.ingred{
+  background: yellow;
     border-color: black;
+    max-width: 20%;
+
 }
 .ing h2{
     font-size: 20px;
 }
 .chokladboll-bild{
     margin-left: 20px;
-    max-width: 100%;
+    max-width: 80%;
 }
 .instruktioner{
   text-align: center;

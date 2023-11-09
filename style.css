@@ -58,4 +58,15 @@ body {
   background-color: #FCD9D9;
   padding: 20px;
   margin-bottom: 30px;
+  
+}
+.instruktion2{
+  background-color: #FCD9D9;
+  margin-bottom: 30px; 
+}
+.instruktion1{
+  background-color: #FCD9D9;
+  padding: 20px;
+  margin-bottom: 30px; 
+  position: relative;
 }

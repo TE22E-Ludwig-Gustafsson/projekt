@@ -5,7 +5,7 @@ body {
 .main {
   display: grid;
   max-width: 900px;
-  max-height: 2000px;
+  max-height: 4000px;
 }
 
 /* Style for the header */
@@ -49,24 +49,42 @@ body {
     margin-left: 20px;
     max-width: 80%;
 }
-.instruktioner{
+
+.text-div {
+  background-color: #FCD9D9; /* Background color set to #FCD9D9 */
+  padding: 20px;
+  margin-bottom: 30px; /* Increase the margin-bottom for more spacing */
+  width: 48%; /* Adjust the width as needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.middle-divs {
+  text-align: left;
+  margin: 20px auto;
+  width: 80%; /* Adjust the width as needed */
+  height: 200px;
+  display: flex; /* Make the container a flex container */
+  justify-content: space-between; /* Space items evenly along the main axis */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-div {
+  width: 48%; /* Adjust the width as needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.small-picture {
+  max-width: 100%; /* Adjust the maximum width of the small picture */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+.middle-diver {
   text-align: center;
   margin: 20px auto;
-  width: 60%;
-}
-.instruktion{
-  background-color: #FCD9D9;
-  padding: 20px;
-  margin-bottom: 30px;
-  
-}
-.instruktion2{
-  background-color: #FCD9D9;
-  margin-bottom: 30px; 
-}
-.instruktion1{
-  background-color: #FCD9D9;
-  padding: 20px;
-  margin-bottom: 30px; 
-  position: relative;
+  width: 80%; /* Adjust the width as needed */
+  height: 200px;
+  display: flex; /* Make the container a flex container */
+  justify-content: space-between; /* Space items evenly along the main axis */
+  flex-wrap: wrap;
+  gap: 10px;
 }

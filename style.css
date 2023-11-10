@@ -1,12 +1,10 @@
 body {
-    overflow-y: scroll;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr;
-    max-height: 4000px;
-  }
-
-
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr;
+  max-height: 4000px;
+}
 
 header {
   background-color: #cb9a9a;
@@ -22,7 +20,6 @@ h1 {
   color: black;
 }
 
-
 p {
   text-align: left;
   margin: 0;
@@ -30,60 +27,71 @@ p {
   font-size: 200%;
   font-weight: bold;
 }
-.ing-bild{
-    background-color: #f4f4f4;
-    padding: 20px;
-    display: flex;
-    max-width: auto;
+.ing-bild {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  max-width: auto;
 }
 
-.ingred{
-  background: yellow;
+.ingred {
+  background: #F6CC61;
   padding: 10px;
-    border-color: black;
-    max-width: 20%;
+  border-color: black;
+  max-width: 20%;
 }
-.ing h2{
-    font-size: 20px;
+.ing h2 {
+  font-size: 20px;
 }
-.chokladboll-bild{
-    margin-left: 20px;
-    max-width: 80%;
+.chokladboll-bild {
+  margin-left: 20px;
+  max-width: 80%;
 }
 
 .middle-divs {
   text-align: left;
   margin: 20px auto;
   width: 80%;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .small-picture {
-  max-width: 50%; 
-  border-radius: 5px; 
-text-align: center;
+  max-width: 50%;
+  border-radius: 5px;
+  text-align: center;
 }
 
-.text-div{ 
-  background-color: #FCD9D9; 
+.text-div {
+  background-color: #fcd9d9;
   padding: 20px;
-  margin-bottom: 30px; 
-  width: 48%; 
+  margin-bottom: 30px;
+  width: 48%;
+  box-sizing: border-box;
+  gap: 20px;
+  max-height: 70%;
+}
+.image-div {
+  /*   padding: 20px; */
+  margin-bottom: 30px;
+  width: 50%;
   box-sizing: border-box;
   gap: 20px;
 }
-.image-div{ 
 
-  padding: 20px;
-  margin-bottom: 30px; 
-  width: 50%; 
-  box-sizing: border-box;
-  gap: 20px;
+footer {
+  background-color: #cb9a9a;
 }
 
-footer{
-background-color: #cb9a9a;
+.text-div1 {
+  background-color: #fcd9d9;
+  padding: 20px;
+  margin-bottom: 30px;
+  width: 48%;
+  box-sizing: border-box;
+  gap: 20px;
+  max-height: 70%;
+  text-align: center;
 }
